@@ -43,6 +43,15 @@ const count = ref(0)
     </p>
   </div>
 
+  <div>
+    <button type="button" @click="count++">count is {{ count }}</button>
+    <p>
+      Edit this 
+      <code>components/HelloWorld.vue</code> to test the website
+    </p>
+  </div>
+  
+
   <p>
     Check out
     <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
