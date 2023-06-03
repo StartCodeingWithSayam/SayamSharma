@@ -12,6 +12,7 @@ const count = ref(0)
   <h1>{{ msg }}</h1>
   <Navbar/>
   <About/>
+  <ContactUs/>
 
 
 
